@@ -37,7 +37,7 @@ define("collections/sounds", function(require) {
 
                 return pattern.test(that.removeDiacritics(data.get("title")))
                     || pattern.test(that.removeDiacritics(data.get("character")))
-                    || pattern.test(that.removeDiacritics(data.get("episode")));
+                    || pattern.test(that.removeDiacritics(data.get("game")));
             }));
         },
         removeDiacritics: function(str) {
